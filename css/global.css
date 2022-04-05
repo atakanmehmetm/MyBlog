@@ -18,6 +18,9 @@
 .bg-light-brown{
     background: #ce8d3d;
 }
+.bg-header{
+  background: linear-gradient(to left, #321a09, #57361a, #885d2d, #c28f45)
+}
 /* Containers */
 .container{
     max-width: 1100px;
