@@ -1,0 +1,25 @@
+/* Text  */
+.text-center {
+  text-align: center;
+}
+.heading-small {
+  font-size: 1.25rem;
+}
+.heading-medium {
+  font-size: 1.5rem;
+}
+.heading-big {
+  font-size: 1.75rem;
+}
+/* Colors */
+.bg-dark-brown{
+    background: #643418;
+}
+.bg-light-brown{
+    background: #ce8d3d;
+}
+/* Containers */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
