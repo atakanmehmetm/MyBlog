@@ -19,15 +19,64 @@ a {
   padding: 0 0.75rem;
   height: 70px;
 }
+
 #navbar ul {
   list-style-type: none;
   display: flex;
   align-items: center;
 }
 #navbar ul li a {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 #navbar ul li a:hover {
-    background: #ce8d3d;
-    border-radius: 15px;
+  background: #ce8d3d;
+  border-radius: 15px;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid black;
+}
+#home img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+#home .name h2 {
+  margin-bottom: 0.75rem;
+}
+#home .name p {
+  opacity: 0.9;
+  font-style: italic;
+}
+#home a {
+  margin-top: 1rem;
+  color: #fff;
+  background-color: #ce8d3d;
+  padding: 0.7rem 2rem;
+  border-radius: 55px;
+  letter-spacing: 0.7px;
+}
+#home a:hover {
+  color: #ce8d3d;
+  background-color: #fff;
+  border: 0.5px solid #ce8d3d;
+  letter-spacing: 0.7px;
+}
+
+/* Projects page */
+#containerprojects {
+  font-family: "Playfair Display", serif;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -90px;
+  margin-top: -60px;
 }
