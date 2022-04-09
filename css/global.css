@@ -21,8 +21,50 @@
 .bg-header{
   background: linear-gradient(to left, #321a09, #57361a, #885d2d, #c28f45)
 }
+.bg-footer{
+  background: #693C01;
+}
+/* Buttons */
+.btn{
+  margin-top: 1rem;
+  color: #fff;
+  background-color: #ce8d3d;
+  padding: 0.7rem 2rem;
+  border-radius: 55px;
+  letter-spacing: 0.7px;
+}
+.btn:hover{
+  color: #ce8d3d;
+  background-color: #fff;
+  border: 0.5px solid #ce8d3d;
+  letter-spacing: 0.7px;
+}
+.btn-block{
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
 /* Containers */
 .container{
     max-width: 1100px;
     margin: 0 auto;
 }
+/* Font Family */
+.ff-playfair{
+  font-family: "Playfair Display", serif;
+  color:#fff;
+}
+/* Forms  */
+.form-group{
+  padding: 0.25rem 0;
+}
+.form-group label{
+  display: block;
+}
+.form-control{
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  resize: none;
+}
+

@@ -25,6 +25,12 @@
       href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Awesome  -->
     <link
       rel="stylesheet"
@@ -46,12 +52,15 @@
             class="heading-big"
             style="font-family: 'Philosopher', sans-serif"
           >
-           <a href="index.html">Atakan Mehmet METİN</a> 
+            <a href="index.html">Atakan Mehmet METİN</a>
           </h1>
           <ul>
-            <li><a href="index.html"> <b>Home</b></a></li>
+            <li>
+              <a href="index.html"> <b>Home</b></a>
+            </li>
             <li><a href="about.html">About Me</a></li>
-            <li><a href="projects.html">My Projects</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
@@ -61,10 +70,55 @@
     <section id="home">
       <img src="/images/MyPicture.jpg" alt="Atakan Mehmet Metin" />
       <div class="name">
-        <h2 class="heading-big text-center">Atakan Mehmet Metin </h2>
+        <h2 class="heading-big text-center">Atakan Mehmet Metin</h2>
         <p>Jr.Front-End Developer | BBA Student at Ankara University</p>
       </div>
-      <a href="projects.html">Take a look at my projects!</a>
+      <a href="projects.html" class="btn">Take a look at my projects!</a>
     </section>
+
+    <footer id="contact" class="bg-footer">
+      <div class="contact-form">
+        <form>
+          <h3 class="text-center heading-big ff-playfair">Reach Me</h3>
+          <div class="form-group ff-playfair">
+            <label for="name">Name&Surname</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="Name&Surname"
+            />
+          </div>
+          <div class="form-group ff-playfair">
+            <label for="name">E-Mail</label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="E-Mail"
+            />
+          </div>
+          <div class="form-group ff-playfair">
+            <label for="name">Message</label>
+            <textarea name="message" id="message" class="form-control" rows="5" placeholder="Your Message Here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-block ff">Send</button>
+        </form>
+        <ul>
+          <li><a href="https://www.facebook.com/profile.php?id=100009961722480" target="_blank"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li><a href="https://twitter.com/atakanmehmetm" target="_blank"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li><a href="https://www.instagram.com/atakanmehmetm/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li><a href="https://www.linkedin.com/in/atakan-mehmet-metin-82b4031b4/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li><a href="https://github.com/atakanmehmetm" target="_blank"><i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
