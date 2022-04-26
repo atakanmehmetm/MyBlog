@@ -54,29 +54,41 @@ a {
   opacity: 0.9;
   font-style: italic;
 }
-#home a {
-  margin-top: 1rem;
-  color: #fff;
-  background-color: #ce8d3d;
-  padding: 0.7rem 2rem;
-  border-radius: 55px;
-  letter-spacing: 0.7px;
-}
-#home a:hover {
-  color: #ce8d3d;
-  background-color: #fff;
-  border: 0.5px solid #ce8d3d;
-  letter-spacing: 0.7px;
-}
 
 /* Projects page */
 #containerprojects {
   font-family: "Playfair Display", serif;
-  width: 300px;
+  width: 250px;
   height: 100px;
   position: absolute;
   left: 50%;
   top: 50%;
   margin-left: -90px;
   margin-top: -60px;
+}
+/* Contact */
+#contact {
+  color: #fff;
+  padding: 1rem;
+}
+#contact .contact-form {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+#contact .contact-form ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 1rem;
+  align-self: center;
+}
+#contact .contact-form ul li a {
+  padding: 1rem;
+  font-size: 2.5rem;
+  opacity: 0.5;
+}
+#contact .contact-form ul li a:hover {
+  opacity:1;
 }
